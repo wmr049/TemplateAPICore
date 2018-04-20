@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Servicos", "1 - Servicos", "{92DF60EE-A3D3-4DBC-80E2-ECAB39BB2881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{F02CDEE5-C051-4B03-A36C-EEF2EA5CBD77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{9EEA54A8-D4F7-423F-844A-9C8D0EEF951D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PontoVenda.Domain", "src\PontoVenda.Domain\PontoVenda.Domain.csproj", "{8AB20F92-9E03-45BF-A5AA-AA16E03B2154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Transversal", "3.2 - Transversal", "{81C11538-87B0-4785-80B3-6C189FF2B7BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Dados", "3.1 - Dados", "{2421CEF7-B17A-4C77-84D1-6952D0FDDF00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PontoVenda.Infra.Dados", "src\PontoVenda.Infra.Dados\PontoVenda.Infra.Dados.csproj", "{FC1D86D6-BB20-46DE-A186-77CAC6D06D39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PontoVenda.Infra.Transversal.IOC", "src\PontoVenda.Infra.Transversal.IOC\PontoVenda.Infra.Transversal.IOC.csproj", "{BEF8C730-CF8E-42CD-B668-CB6F88C77990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoVenda.Services.API", "PontoVenda.Services.API\PontoVenda.Services.API.csproj", "{DEDB1805-7144-4C35-9851-86C56A6A89D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB20F92-9E03-45BF-A5AA-AA16E03B2154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB20F92-9E03-45BF-A5AA-AA16E03B2154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB20F92-9E03-45BF-A5AA-AA16E03B2154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB20F92-9E03-45BF-A5AA-AA16E03B2154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1D86D6-BB20-46DE-A186-77CAC6D06D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1D86D6-BB20-46DE-A186-77CAC6D06D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1D86D6-BB20-46DE-A186-77CAC6D06D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1D86D6-BB20-46DE-A186-77CAC6D06D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF8C730-CF8E-42CD-B668-CB6F88C77990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF8C730-CF8E-42CD-B668-CB6F88C77990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF8C730-CF8E-42CD-B668-CB6F88C77990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF8C730-CF8E-42CD-B668-CB6F88C77990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDB1805-7144-4C35-9851-86C56A6A89D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDB1805-7144-4C35-9851-86C56A6A89D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDB1805-7144-4C35-9851-86C56A6A89D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDB1805-7144-4C35-9851-86C56A6A89D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AB20F92-9E03-45BF-A5AA-AA16E03B2154} = {F02CDEE5-C051-4B03-A36C-EEF2EA5CBD77}
+		{81C11538-87B0-4785-80B3-6C189FF2B7BF} = {9EEA54A8-D4F7-423F-844A-9C8D0EEF951D}
+		{2421CEF7-B17A-4C77-84D1-6952D0FDDF00} = {9EEA54A8-D4F7-423F-844A-9C8D0EEF951D}
+		{FC1D86D6-BB20-46DE-A186-77CAC6D06D39} = {2421CEF7-B17A-4C77-84D1-6952D0FDDF00}
+		{BEF8C730-CF8E-42CD-B668-CB6F88C77990} = {81C11538-87B0-4785-80B3-6C189FF2B7BF}
+		{DEDB1805-7144-4C35-9851-86C56A6A89D4} = {92DF60EE-A3D3-4DBC-80E2-ECAB39BB2881}
+	EndGlobalSection
+EndGlobal

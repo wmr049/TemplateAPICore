@@ -1,0 +1,12 @@
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\appsettings.json
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.deps.json
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.dll
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.pdb
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Domain.dll
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Infra.Dados.dll
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Domain.pdb
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\bin\Debug\netcoreapp1.1\PontoVenda.Infra.Dados.pdb
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\obj\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.csprojResolveAssemblyReference.cache
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\obj\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.AssemblyInfo.cs
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\obj\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.dll
+C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Infra.Transversal.IOC\obj\Debug\netcoreapp1.1\PontoVenda.Infra.Transversal.IOC.pdb

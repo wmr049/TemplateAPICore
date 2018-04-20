@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="6.0.2" />
+    <PackageReference Include="MediatR" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PontoVenda.Domain\PontoVenda.Domain.csproj" />
+    <ProjectReference Include="..\PontoVenda.Infra.Dados\PontoVenda.Infra.Dados.csproj" />
+  </ItemGroup>
+
+</Project>
