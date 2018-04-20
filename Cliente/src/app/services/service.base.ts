@@ -7,22 +7,14 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/observable/throw';
 
-import { Organizador } from '../usuario/models/organizador';
 
 export abstract class ServiceBase {
-    public Token: string = '';
 
     protected UrlServiceV1: string = 'http://localhost:5050/api/v1/';
 
-    public obterUsuario() {
-        return JSON.parse(localStorage.getItem('eio.user'));
-    }
-
     protected obterAuthHeader(): RequestOptions {
-        this.Token = localStorage.getItem('eio.token');
 
         let headers = new Headers({ 'Content-Type': 'application/json' });
-        headers.append('Authorization', `Bearer ${this.Token}`);
         let options = new RequestOptions({ headers: headers });
         return options;
     }
