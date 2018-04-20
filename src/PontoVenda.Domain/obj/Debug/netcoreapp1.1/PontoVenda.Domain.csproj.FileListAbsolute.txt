@@ -4,4 +4,3 @@ C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Domain\bin\Debug\netcoreapp1.1\Pon
 C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Domain\obj\Debug\netcoreapp1.1\PontoVenda.Domain.AssemblyInfo.cs
 C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Domain\obj\Debug\netcoreapp1.1\PontoVenda.Domain.dll
 C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Domain\obj\Debug\netcoreapp1.1\PontoVenda.Domain.pdb
-C:\projetos\PESSOAL\PontoVenda\src\PontoVenda.Domain\obj\Debug\netcoreapp1.1\PontoVenda.Domain.csprojResolveAssemblyReference.cache

@@ -34,8 +34,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\PontoVenda.Domain\PontoVenda.Domain.csproj" />
-    <ProjectReference Include="..\src\PontoVenda.Infra.Transversal.IOC\PontoVenda.Infra.Transversal.IOC.csproj" />
+    <ProjectReference Include="..\PontoVenda.Domain\PontoVenda.Domain.csproj" />
+    <ProjectReference Include="..\PontoVenda.Infra.Dados\PontoVenda.Infra.Dados.csproj" />
+    <ProjectReference Include="..\PontoVenda.Infra.Transversal.IOC\PontoVenda.Infra.Transversal.IOC.csproj" />
   </ItemGroup>
 
 </Project>
